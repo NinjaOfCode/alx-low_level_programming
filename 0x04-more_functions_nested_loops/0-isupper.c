@@ -1,19 +1,17 @@
 #include "main.h"
 /**
-* main - print _putchar
-* is written by mbah
-* Return: 0
-*/
-int main(void)
+ * _isupper - program starts
+ * @c: integer input
+ * program checks alphabets for uppercase.
+ * Return: 1 if upper and 0 is not
+ */
+
+int _isupper(int c)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+		return (0);
 }
